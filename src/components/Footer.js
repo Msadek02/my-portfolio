@@ -12,7 +12,7 @@ function Footer() {
                         Mostafa Sadek
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Mostafa Sadek.
+                        CopyRight &copy; 2020 - Mostafa Sadek.
                     </Col>
                 </Row>
             </Container>
