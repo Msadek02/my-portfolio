@@ -24,7 +24,7 @@ app.post('/api/email', (req, res, next) => {
     
     sendGrid.setApiKey('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');
     const msg = {
-        to: 'thunder_axe_90@hotmail.com',
+        to: 'Msadek02@email.cpcc.edu',
         from: req.body.email,
         subject: 'Website Contact',
         text: req.body.message,
@@ -37,7 +37,7 @@ app.post('/api/email', (req, res, next) => {
             });
         })
         .catch (err => {
-            console.log(err)
+            console.log('error: ', err);
             res.status(401).json({
                 success: false
             })
